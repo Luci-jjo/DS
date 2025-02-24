@@ -1,0 +1,15 @@
+<script>
+    let onibus = [];
+    let continuar = ['s'];
+
+    while(continuar == 's') {
+        onibus.push(prompt("Digite o nome do passageiro: "))
+        continuar = prompt("Deseja subir mais alguem no onibus? s/n")
+    }
+
+    console.log("Passageiros do ônibus: ");
+
+    onibus.forEach(function(passageiro) {
+        console.log(passageiro);
+    })
+</script>

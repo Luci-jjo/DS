@@ -1,0 +1,15 @@
+<script>
+    let Tarefas = [];
+    let continuar = ['s'];
+
+    while(continuar == 's') {
+        Tarefas.push(prompt("Digite as tarefas: "))
+        continuar = prompt("Deseja adicionar mais alguma tarefa? s/n")
+    }
+
+    console.log("Lista de tarefas: ");
+
+    Tarefas.forEach(function(tarefa) {
+        console.log(tarefa);
+    })
+</script>
