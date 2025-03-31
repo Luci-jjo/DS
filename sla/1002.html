@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Dsenvolva uma aplicação no qual o
+        // usuário irá entrar com a idade e será
+        //exibido se pode votar, se a votação é
+        //obrigatório   
+
+        let year = parseInt(prompt("DIgite sua idade"))
+
+        if(year > 17 && year<70) {
+            alert("Voce é obrigado a votar")
+        } else if(year < 18 && year >15){
+            alert("Votação opcional")
+        } else if(year <18) {
+            alert("Você não pode votar")
+        } else if(year >= 70) {
+            alert("Votação opcional")
+        }
+    </script>
+</body>
+</html>
