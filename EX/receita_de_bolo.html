@@ -1,0 +1,64 @@
+<script>
+    let Batedeira = [];
+
+    addIngrediente('1 xicara de farinha');
+    addIngrediente('1 ovo');
+    addIngrediente('1 ovo');
+    addIngrediente('1 ovo');
+    addIngrediente('1 xicara de açucar');
+    addIngrediente('1 colher de óleo');
+    addIngrediente('1 xicara de leite');
+    addIngrediente('1 colher de chá de fermento');
+    addIngrediente('chocolate a gosto');
+
+    misturarIngredientes();
+
+    addAssadeira();
+
+    addForno();
+
+    aguardarQuaseUmaHora();
+
+    retirarBolo();
+
+    esperarEsfriar();
+
+    degustar();
+
+    function addIngrediente(ingredientes) {
+        Batedeira.push(ingredientes);
+        console.log('Ação executada --> ' + ingredientes);
+    }
+
+    function misturarIngredientes() {
+        console.log('Ingredientes misturados com sucesso!');
+        
+    }
+
+    function addAssadeira(){
+        console.log('Ingredientes adicionados à assadeira com sucesso!');
+    }
+
+    function addForno(){
+        console.log('Assadeira levada ao forno com sucesso!');
+    }
+
+    function aguardarQuaseUmaHora(){
+        console.log('A massa está assando!!!');
+    }
+
+    function retirarBolo(){
+        console.log('Bolo retirado com sucesso!!');
+    }
+
+    function esperarEsfriar(){
+        console.log('Aguardando...')
+    }
+
+    function degustar(){
+        console.log('Bolo degustado com sucesso!!!📍');
+    }
+
+    console.log(Batedeira)
+
+</script>
