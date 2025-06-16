@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  .d-flex {
+    transition: all 0.4s;
+
+  }
+  nav {
+    background-color: #6600ff;
+    color: aqua;
+}
+
+.containner {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: auto;
+}
+
+.nav-item {
+ background-color: #6600ff;
+ display: flex;
+ margin: 5px;
+ border-radius: 5px;
+ transition: all 0.4s;
+}
+
+.nav-item:hover {
+  background-color: #5002c4;
+ display: flex;
+ border-radius: 5px;
+ transition: all 0.4s;
+}
+
+
+.nav-link {
+  color: white  ;
+}
+.nav-link:hover {
+  color: white  ;
+}
+
+.btn:hover {
+  background-color: #3d50ff;
+ display: flex;
+ border-radius: 5px;
+ transition: all 0.4s;
+}
