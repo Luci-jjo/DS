@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(0, 0, 0);
+  
+  }
+  form {
+    transition: all 0.4s;
+    color: white;
+
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+    
+}
+  
+  nav {
+    background-color:  #00000026;
+    color: rgb(0, 0, 0);  
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 0 100px rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(119, 0, 255, 0.482);
+    }
+
+
+.nav-item {
+  background-size: 100% 100%;
+  display: flex;
+  margin: 20px;
+  border-radius: 5px;
+  transition: all 0.4s;
+  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: start;
+  justify-content: center;
+ }
+
+ #nav-item0 {
+  background-image: url(https://img.freepik.com/fotos-premium/incrivel-planeta-vermelho-marte-com-crateras-e-belos-raios-do-sol-no-espaco-com-estrelas-e-planeta-azul-earth-space-wallpaper-concept_338491-18140.jpg
+  );
+ }
+ #nav-item1 {
+  background-image: url(https://uploads.metroimg.com/wp-content/uploads/2021/08/11182008/sexta-feira-e-um-bom-dia-para-namorar-veja-o-planeta-regente-de-cada-dia-da-semana-15681.jpeg
+  );
+ }
+ #nav-item2 {
+  background-image: url(https://img.odcdn.com.br/wp-content/uploads/2024/07/cometa-escuro-scaled.jpeg
+  );
+ }
+ #nav-item3 {
+  background-image: url(https://conteudo.imguol.com.br/c/noticias/44/2021/07/09/planeta-terra-visto-do-espaco-1625856127096_v2_4x3.jpg
+  );
+ }
+
+ footer {
+  background-color: #3d50ff00;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  height: 30px;
+  margin-top: 15px;
+  border-top: 2px solid rgba(119, 0, 255, 0.482);
+ }
+
+ 
+
+.nav-item:hover {
+ display: flex;
+ border-radius: 5px;
+ transition: all 0.4s;
+ text-align: center;
+ align-items: start;
+ transition: 0.4s;
+ scale: 1.1;
+ box-shadow: rgba(119, 0, 255, 0.482) 0 0 50px;
+}
+
+
+.nav-link {
+  color: rgb(255, 255, 255)  ;
+  width: 100%;
+  height: 100%;
+}
+
+h4 {
+  text-shadow: 1px 1px 15px rgb(119, 0, 255);
+}
+.nav-link:hover {
+  color: white  ;
+}
+
+.btn:hover {
+ display: flex;
+ border-radius: 5px;
+ transition: all 0.4s;
+}
+
+.voltard {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 60px;
+}
+
+a.nav-link:hover {
+transition: 0.4s;
+text-shadow: 0 0 9px white;
+border: none;
+}
+
+
+
+
+
+
+
+
